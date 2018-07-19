@@ -130,22 +130,22 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\src\redisclient\impl\pipeline.cpp" />
-    <ClCompile Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\src\redisclient\impl\redisasyncclient.cpp" />
-    <ClCompile Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\src\redisclient\impl\redisclientimpl.cpp" />
-    <ClCompile Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\src\redisclient\impl\redisparser.cpp" />
-    <ClCompile Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\src\redisclient\impl\redissyncclient.cpp" />
-    <ClCompile Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\src\redisclient\impl\redisvalue.cpp" />
-    <ClInclude Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\src\redisclient\config.h" />
-    <ClInclude Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\src\redisclient\pipeline.h" />
-    <ClInclude Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\src\redisclient\redisasyncclient.h" />
-    <ClInclude Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\src\redisclient\redisbuffer.h" />
-    <ClInclude Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\src\redisclient\redisparser.h" />
-    <ClInclude Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\src\redisclient\redissyncclient.h" />
-    <ClInclude Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\src\redisclient\redisvalue.h" />
-    <ClInclude Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\src\redisclient\version.h" />
-    <ClInclude Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\src\redisclient\impl\redisclientimpl.h" />
-    <ClInclude Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\src\redisclient\impl\throwerror.h" />
+    <ClCompile Include="..\..\..\redisclient\src\redisclient\impl\pipeline.cpp" />
+    <ClCompile Include="..\..\..\redisclient\src\redisclient\impl\redisasyncclient.cpp" />
+    <ClCompile Include="..\..\..\redisclient\src\redisclient\impl\redisclientimpl.cpp" />
+    <ClCompile Include="..\..\..\redisclient\src\redisclient\impl\redisparser.cpp" />
+    <ClCompile Include="..\..\..\redisclient\src\redisclient\impl\redissyncclient.cpp" />
+    <ClCompile Include="..\..\..\redisclient\src\redisclient\impl\redisvalue.cpp" />
+    <ClInclude Include="..\..\..\redisclient\src\redisclient\config.h" />
+    <ClInclude Include="..\..\..\redisclient\src\redisclient\pipeline.h" />
+    <ClInclude Include="..\..\..\redisclient\src\redisclient\redisasyncclient.h" />
+    <ClInclude Include="..\..\..\redisclient\src\redisclient\redisbuffer.h" />
+    <ClInclude Include="..\..\..\redisclient\src\redisclient\redisparser.h" />
+    <ClInclude Include="..\..\..\redisclient\src\redisclient\redissyncclient.h" />
+    <ClInclude Include="..\..\..\redisclient\src\redisclient\redisvalue.h" />
+    <ClInclude Include="..\..\..\redisclient\src\redisclient\version.h" />
+    <ClInclude Include="..\..\..\redisclient\src\redisclient\impl\redisclientimpl.h" />
+    <ClInclude Include="..\..\..\redisclient\src\redisclient\impl\throwerror.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

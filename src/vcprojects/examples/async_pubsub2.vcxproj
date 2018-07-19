@@ -130,7 +130,7 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\examples\async_pubsub2.cpp" />
+    <ClCompile Include="..\..\redisclient\examples\async_pubsub2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\src\redisclient\RedisClient.vcxproj">

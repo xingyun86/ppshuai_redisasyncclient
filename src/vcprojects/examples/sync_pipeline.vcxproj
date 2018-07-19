@@ -130,10 +130,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\examples\sync_pipeline.cpp" />
+    <ClCompile Include="..\..\redisclient\examples\sync_pipeline.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\DevelopmentEnvironment\Workspaces\redisclient\vcprojects\src\redisclient\RedisClient.vcxproj">
+    <ProjectReference Include="..\..\vcprojects\src\redisclient\RedisClient.vcxproj">
       <Project>{75BCF0D9-154A-3713-A760-FE57444066E2}</Project>
       <Name>RedisClient</Name>
     </ProjectReference>

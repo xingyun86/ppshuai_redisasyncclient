@@ -130,7 +130,7 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\tests\redisvaluetest.cpp" />
+    <ClCompile Include="..\..\redisclient\tests\redisvaluetest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\DevelopmentEnvironment\Workspaces\redisclient\vcprojects\src\redisclient\RedisClient.vcxproj">
