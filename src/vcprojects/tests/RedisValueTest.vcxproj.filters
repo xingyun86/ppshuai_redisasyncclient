@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\DevelopmentEnvironment\Workspaces\redisclient\redisclient\tests\redisvaluetest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4685E5C2-377D-3186-BDC5-09ECEB92E067}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
