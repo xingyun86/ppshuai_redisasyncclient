@@ -98,7 +98,11 @@ void RedisSyncClient::connect(const boost::asio::ip::tcp::endpoint &endpoint,
     int result = ::connect(socket, reinterpret_cast<sockaddr*>(&addr), sizeof(addr));
     if (result < 0)
     {
+#if !defined(_WIN32)
         if (errno == EINPROGRESS)
+#else
+		if(WSAGetLastError() == WSAEWOULDBLOCK || WSAGetLastError() == WSAEINPROGRESS)
+#endif
         {
             for(;;)
             {
